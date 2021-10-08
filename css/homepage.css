@@ -1,0 +1,87 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@import "menu.css";
+@media (min-width:420px) {
+  body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(background/cool-background.png) no-repeat;
+  background-color: #eeeeee;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+  .top {
+    color: black;
+    font-size: xx-large;
+    font-family: DFKai-sb;
+  }
+
+
+  .mian {
+    font-family: Georgia, serif;
+  }
+
+
+  .C1 {
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .title {
+    font-size: 120%;
+    margin-left: 130px;
+  }
+
+  .text {
+    margin-left: 150px;
+  }
+
+
+
+}
+@media(max-width : 860px){
+  body{
+    background-image: url(background/mobile_bg.jpg);
+    background-color: #eeeeee;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    font-size: 20%;
+  }
+
+  .top {
+    color: #fff;
+    font-size: xx-large;
+    font-family: DFKai-sb;
+  }
+  
+  .mian {
+    font-family: Georgia, serif;
+  }
+
+
+  .C1 {
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .title {
+    font-size: 120%;
+    margin-left: 0px;
+    color: black;
+  }
+
+  .text {
+    margin-left: 15px;
+    margin-right: 5px;
+    color: black;
+  }
+
+}

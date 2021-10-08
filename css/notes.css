@@ -1,0 +1,153 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@media (min-width:420px) {
+  .new {
+    background-color: #121211;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+
+  .t {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 180%;
+  }
+
+  .n {
+    background-color: #fff;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .title_2 {
+    font-weight: bold;
+    font-size: 150%;
+    margin-left: 150px;
+  }
+
+
+
+
+
+
+  .link {
+    margin-left: 150px;
+    color: blue;
+  }
+
+
+
+  .promo {
+    position: relative;
+    bottom: -5px;
+    box-shadow: 10px 10px 10px 10px grey;
+    border-radius: 5px;
+    width: 700px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 150px;
+  }
+
+  .promo > iframe {
+    position: relative;
+    top: -5px;
+    border: 10px solid white;
+    border-radius: 5px;
+    width: 700px;
+    height: 400px;
+  }
+
+  .welfare {
+    margin-left: 150px;
+    width: 600px;
+    height: 150px;
+  }
+
+  .welfare > img {
+    width: 600px;
+    height: 150px;
+  }
+
+
+  .word {
+    margin-left: 150px;
+  }
+
+
+}
+
+
+
+@media(max-width : 860px){
+  .new {
+    background-color: #121211;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+
+
+  .t {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-size: 180%;
+  }
+
+  .n {
+    background-color: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .title_2 {
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+    margin-left: 30px;
+  }
+
+
+
+  .link {
+    margin-left: 30px;
+    color: blue;
+  }
+
+  .promo {
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    margin-top: 7px;
+    margin-left: 30px;
+  }
+
+  .promo > iframe {
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+  }
+
+  .welfare {
+    margin-left: 30px;
+  }
+
+
+}
